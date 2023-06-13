@@ -1,0 +1,23 @@
+bufio -  Buffering IO is a technique used to temporarily accumulate the results for an IO operation before transmitting it forward.
+
+Buffered input provides several benefits:
+
+1. Efficiency: Reading data in larger chunks instead of individual characters or bytes can improve 
+  performance by reducing the overhead associated with frequent I/O operations.
+
+2. Reduced Latency: By reading data in advance and storing it in the buffer, 
+  the program can reduce the time spent waiting for the input source to provide data, thereby reducing latency.
+
+3. Improved Throughput: Buffered input allows for more efficient use of system resources, enabling higher data throughput rates.
+
+4. Smoother Interaction: Buffering can improve user interaction by reducing the perceived 
+  delay when reading input from slow or remote sources.
+
+
+example
+
+reader := bufio.NewReader(os.Stdin);
+
+input, err/_ := reader.ReadString();
+
+

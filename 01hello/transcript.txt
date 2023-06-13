@@ -1,0 +1,62 @@
+WORK=C:\Users\YUGAND~1\AppData\Local\Temp\go-build524671975
+mkdir -p $WORK\b001\
+cat >C:\Users\YUGAND~1\AppData\Local\Temp\go-build524671975\b001\importcfg << 'EOF' # internal
+# import config
+packagefile fmt=C:\Users\yugandhar surya\AppData\Local\go-build\16\16f8a64b55b3bbf1ef4757fe34eae704321c4b56d220c782869681cf347ff555-d
+packagefile runtime=C:\Users\yugandhar surya\AppData\Local\go-build\a9\a9ade299c12c9cc2a04278fcdc19650bbbc3c8d23f324ccd934b5f1d01f153f4-d
+EOF
+cd C:\Users\yugandhar surya\Desktop\lectures\Languages\GO\Programs\01hello
+"C:\\Program Files\\Go\\pkg\\tool\\windows_amd64\\compile.exe" -o "$WORK\\b001\\_pkg_.a" -trimpath "$WORK\\b001=>" -p main -complete -buildid hAyHs1UjH-cb8BIv9JpR/hAyHs1UjH-cb8BIv9JpR -goversion go1.20.5 -c=4 -nolocalimports -importcfg "$WORK\\b001\\importcfg" -pack "C:\\Users\\yugandhar surya\\Desktop\\lectures\\Languages\\GO\\Programs\\01hello\\main.go"
+"C:\\Program Files\\Go\\pkg\\tool\\windows_amd64\\buildid.exe" -w "$WORK\\b001\\_pkg_.a" # internal
+cp "$WORK\\b001\\_pkg_.a" "C:\\Users\\yugandhar surya\\AppData\\Local\\go-build\\b1\\b1f92e98706d46f40c3d71868a4207466698f90991caaff3a65ad960135dc3a7-d" # internal
+cat >C:\Users\YUGAND~1\AppData\Local\Temp\go-build524671975\b001\importcfg.link << 'EOF' # internal
+packagefile command-line-arguments=C:\Users\YUGAND~1\AppData\Local\Temp\go-build524671975\b001\_pkg_.a
+packagefile fmt=C:\Users\yugandhar surya\AppData\Local\go-build\16\16f8a64b55b3bbf1ef4757fe34eae704321c4b56d220c782869681cf347ff555-d
+packagefile runtime=C:\Users\yugandhar surya\AppData\Local\go-build\a9\a9ade299c12c9cc2a04278fcdc19650bbbc3c8d23f324ccd934b5f1d01f153f4-d
+packagefile errors=C:\Users\yugandhar surya\AppData\Local\go-build\5d\5de7b940a362f8bd4ae0ff033692db8a9bbd6c8de091923e32446b69d9383a91-d
+packagefile internal/fmtsort=C:\Users\yugandhar surya\AppData\Local\go-build\c7\c79c857fa11006b44109d7c58dab907f8d1b57f55c8ba308fa3cae03e29bc165-d
+packagefile io=C:\Users\yugandhar surya\AppData\Local\go-build\f0\f02df0c36e13e9fc04aed23704004cd7fca3e325f27dd28438d69ff16d147280-d
+packagefile math=C:\Users\yugandhar surya\AppData\Local\go-build\32\32e9e79a212d3c848d581d8dbd336d0a86a9467dc26ff83224efa6939848e76a-d
+packagefile os=C:\Users\yugandhar surya\AppData\Local\go-build\d4\d418b4ea2030cb43f0f7b66b352c4073b686501e9d6135f011c93fdf1ea01a84-d
+packagefile reflect=C:\Users\yugandhar surya\AppData\Local\go-build\9c\9c481a88cc98f7fd83bd6c4e5039d024aff3167276cbb93a9b4069eb025a9308-d
+packagefile sort=C:\Users\yugandhar surya\AppData\Local\go-build\e2\e27113f1044e3a617545c6c1d0aa9a6b58f966434a91cc4fd5adad16691230fa-d
+packagefile strconv=C:\Users\yugandhar surya\AppData\Local\go-build\33\3314c6d07beed055d253b333af1e090c27091962bd24a31da9a9b4864198a6da-d
+packagefile sync=C:\Users\yugandhar surya\AppData\Local\go-build\1d\1d728f2ac8b5cd5f2f2f31610f1ee92e2c86fca65e61d0050b16d66ebb27b352-d
+packagefile unicode/utf8=C:\Users\yugandhar surya\AppData\Local\go-build\c3\c34001e3acdbf985c4f7ec5ac3d9f50f81584f235e27a29a7b0ed4c6de6e9766-d
+packagefile internal/abi=C:\Users\yugandhar surya\AppData\Local\go-build\0b\0bd10dcf54e972fa4810491e58ab2658f55eb2163c3afe6144d993d77b63bbdc-d
+packagefile internal/bytealg=C:\Users\yugandhar surya\AppData\Local\go-build\51\519910b5be5eb147c4b1fac3384e97c6252159335067ef3bac483e63ec558dff-d
+packagefile internal/coverage/rtcov=C:\Users\yugandhar surya\AppData\Local\go-build\bc\bcb6d98b86371bfcf20c8efd2efa09278fc51cd91afd65950dd1010442b040c8-d
+packagefile internal/cpu=C:\Users\yugandhar surya\AppData\Local\go-build\ca\caf4714df41e2235aa7c75e4441ea73bb549d243de6723bfd3f0d294a607bd8e-d
+packagefile internal/goarch=C:\Users\yugandhar surya\AppData\Local\go-build\33\33920cdc607502147623d4b2ee64456f1c7666cdd0547c44d337192e242edf7e-d
+packagefile internal/goexperiment=C:\Users\yugandhar surya\AppData\Local\go-build\11\11bbcc7bd5631fe29704d70e2b153b00e4a90439d1965920a035b89e53ed9487-d
+packagefile internal/goos=C:\Users\yugandhar surya\AppData\Local\go-build\59\59e07c74b6da4f0c15e50a16db370924803f1570dd458e9398f384f8eb0af4bc-d
+packagefile runtime/internal/atomic=C:\Users\yugandhar surya\AppData\Local\go-build\da\daf43ea80492236ccd974c1e5a545e06bf7a9f9aa13798abc5291dd0f718e6ab-d
+packagefile runtime/internal/math=C:\Users\yugandhar surya\AppData\Local\go-build\15\15df8702f5fc39ab99f5661be417716002601073ceeb9c186a6fb719b20a3693-d
+packagefile runtime/internal/sys=C:\Users\yugandhar surya\AppData\Local\go-build\13\135b76836ed32a9c9594e3321a0e39ee7e12f296013f3827126a22d79cc73caa-d
+packagefile internal/reflectlite=C:\Users\yugandhar surya\AppData\Local\go-build\ce\ce6bb36fe12d0c9b59ab1cf5e8a8881a8865f78c43e85f7909e19477ab3f49f5-d
+packagefile math/bits=C:\Users\yugandhar surya\AppData\Local\go-build\20\201c0a3a152e193bf97c31718de5ea9dcdc236a7ee6eae9bbf5774ca7375a40e-d
+packagefile internal/itoa=C:\Users\yugandhar surya\AppData\Local\go-build\a6\a6550e87330b216aabdbe9d4241ea8db7903ef0ebd07e6b7327672fd4f2be5f3-d
+packagefile internal/poll=C:\Users\yugandhar surya\AppData\Local\go-build\35\35173d8111e4e30509ef9806e027895a3f466c0beb7da178fb1a8d5c4a8ba90e-d
+packagefile internal/safefilepath=C:\Users\yugandhar surya\AppData\Local\go-build\39\39860cc03b4ac6a4115f7dc4f83e4c875591c15b4a32300b9bc0ec2bb7a9a25f-d
+packagefile internal/syscall/execenv=C:\Users\yugandhar surya\AppData\Local\go-build\78\78bd310a9183f6015dfabf5834840e5c7af51a8111a757402fe956a709ba88b8-d
+packagefile internal/syscall/windows=C:\Users\yugandhar surya\AppData\Local\go-build\e0\e06a4e4b94b6f6a02db5d5dad19834225d9815513ca087d8cb993f470803a427-d
+packagefile internal/testlog=C:\Users\yugandhar surya\AppData\Local\go-build\80\80ec3d9fbb692629c7a74fd2dfc54aff2c6be3b8deed3702d269e4acc71a0318-d
+packagefile io/fs=C:\Users\yugandhar surya\AppData\Local\go-build\e6\e6285d19b322733048bd199a1cf64e988d79cce6011c4cc600af742400587abc-d
+packagefile sync/atomic=C:\Users\yugandhar surya\AppData\Local\go-build\ca\cadad5131f6cd322b04fc15680ace38c4bf5c6073dd3ac3fb442a29921cd2874-d
+packagefile syscall=C:\Users\yugandhar surya\AppData\Local\go-build\54\54221ad6e6045f7b2b25520867d182a5a3314b59d5d4bb21dadac0efded67aa2-d
+packagefile time=C:\Users\yugandhar surya\AppData\Local\go-build\70\7059ce74068c696795d722cb007500be14357e0b3981546beb64373a1918d96a-d
+packagefile unicode/utf16=C:\Users\yugandhar surya\AppData\Local\go-build\ca\ca043a7c041588f75af8854caedee1c0002cd3ff29f28ac800c0792391297f7c-d
+packagefile internal/unsafeheader=C:\Users\yugandhar surya\AppData\Local\go-build\4d\4d4b09e8c4ef787cae3565a45ce5ee0b6aab40244a2b859d96c238c482943a7e-d
+packagefile unicode=C:\Users\yugandhar surya\AppData\Local\go-build\a9\a9adb3c73dfb6a51a58c463c6f5b4a2fb79156de94a900aba0fdb0217a116ba4-d
+packagefile internal/race=C:\Users\yugandhar surya\AppData\Local\go-build\f0\f037c7988cf14996ff3fd1ceb7b56fa187f6e201038a86375018ccae0b8241a5-d
+packagefile internal/syscall/windows/sysdll=C:\Users\yugandhar surya\AppData\Local\go-build\1d\1d5e139d81147d37c4f76a601d0f1b873fd16da92a7098e033adb35ec3f6831b-d
+packagefile internal/oserror=C:\Users\yugandhar surya\AppData\Local\go-build\f9\f94feb0ae54172a5b99bdab078031e9483bf90d46ee106b9c164d2921edaca7f-d
+packagefile path=C:\Users\yugandhar surya\AppData\Local\go-build\68\683da8f740098ac96587c7056cf48c167aa1a1f8d8003003f370965144509064-d
+packagefile internal/syscall/windows/registry=C:\Users\yugandhar surya\AppData\Local\go-build\16\16d62bfc6aec49e52a3d1fa4cd3655e8e41514618b535f8d67a16e962467aa81-d
+modinfo "0w\xaf\f\x92t\b\x02A\xe1\xc1\a\xe6\xd6\x18\xe6path\tcommand-line-arguments\nbuild\t-buildmode=exe\nbuild\t-compiler=gc\nbuild\tCGO_ENABLED=0\nbuild\tGOARCH=amd64\nbuild\tGOOS=windows\nbuild\tGOAMD64=v1\n\xf92C1\x86\x18 r\x00\x82B\x10A\x16\xd8\xf2"
+EOF
+mkdir -p $WORK\b001\exe\
+cd .
+"C:\\Program Files\\Go\\pkg\\tool\\windows_amd64\\link.exe" -o "$WORK\\b001\\exe\\a.out.exe" -importcfg "$WORK\\b001\\importcfg.link" -buildmode=pie -buildid=zR8LwN35H2ihBkh2Ap0R/hAyHs1UjH-cb8BIv9JpR/cuPUUy09YB2nHRk09sk0/zR8LwN35H2ihBkh2Ap0R -extld=gcc "$WORK\\b001\\_pkg_.a"
+"C:\\Program Files\\Go\\pkg\\tool\\windows_amd64\\buildid.exe" -w "$WORK\\b001\\exe\\a.out.exe" # internal
+cp $WORK\b001\exe\a.out.exe main.exe
