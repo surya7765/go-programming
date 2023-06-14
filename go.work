@@ -6,4 +6,5 @@ use (
 	./03timepkg
 	./04conditionals
 	./dummy
+	./05functions
 )
