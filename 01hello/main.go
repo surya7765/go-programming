@@ -1,7 +1,9 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
+	"os"
 	"reflect"
 )
 
@@ -11,13 +13,12 @@ import (
 // Command for storing the compilation stages in txt file
 // go build -x -work main.go 1> transcript.txt 2>&1
 
-
 // Initializing the module
-	// In general
-	// go mod init github.com/users/<anyname>
+// In general
+// go mod init github.com/users/<anyname>
 
-	// As usual
-	// go mod init <anyname>
+// As usual
+// go mod init <anyname>
 
 // To run go file
 // go run <filename.go>
@@ -31,7 +32,6 @@ import (
 // To work with multiple files in a single workspace
 // go work
 // go work use <filename1,filename2>
-
 
 // Declaration of multiple variables
 func main() {
@@ -87,11 +87,11 @@ func main() {
 func main(){
     fmt.Println("Hello from Go!")
 
-    var input string
     var err error
     
-    _, err = fmt.Scanln(&input)
+    reader := bufio.NewReader(os.Stdin);
 
+    input, err := reader.ReadString(56);
     if err != nil {
         fmt.Println("Error - ", err)
     } else{
